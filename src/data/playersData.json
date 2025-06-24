@@ -13,7 +13,7 @@
       "name": "FC Barcelona",
       "country": "España", 
       "league": "La Liga",
-      "logo": "https://logos-world.net/wp-content/uploads/2020/06/Barcelona-Logo.png",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj7kHgyd9GHcPpVcJ8FMmOjOQVk6JyHMq3Rw&s",
       "colors": ["#004D98", "#A50044"]
     },
     {
@@ -29,7 +29,7 @@
       "name": "Paris Saint-Germain",
       "country": "Francia",
       "league": "Ligue 1",
-      "logo": "https://logos-world.net/wp-content/uploads/2020/06/Paris-Saint-Germain-Logo.png", 
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGIPWDS53hht9Gk3L8zA8Bi6try71-rsrSaQ&s", 
       "colors": ["#004170", "#ED1C24"]
     },
     {
@@ -37,7 +37,7 @@
       "name": "Bayern Munich",
       "country": "Alemania",
       "league": "Bundesliga",
-      "logo": "https://logos-world.net/wp-content/uploads/2020/06/Bayern-Munich-Logo.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg/1024px-FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg.png",
       "colors": ["#DC052D", "#FFFFFF"]
     },
     {
@@ -45,9 +45,26 @@
       "name": "Liverpool",
       "country": "Inglaterra", 
       "league": "Premier League",
-      "logo": "https://logos-world.net/wp-content/uploads/2020/06/Liverpool-Logo.png",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDSF6Fs9BVfX8orNEumLNUayGXGKInSW9bNg&s",
       "colors": ["#C8102E", "#00B2A9"]
+    },
+    {
+      "id": 7,
+      "name": "Alianza Lima",
+      "country": "Perú",
+      "league": "Liga 1",
+      "logo": "https://marketing-peru.beglobal.biz/wp-content/uploads/2025/04/logo-alianza-lima.jpg",
+      "colors": ["#DC052D", "#FFFFFF"]
+    },
+    {
+      "id": 8,
+      "name": "Universitario de Deportes",
+      "country": "Perú",
+      "league": "Liga 1",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Logo_oficial_de_Universitario.png/500px-Logo_oficial_de_Universitario.png",
+      "colors": ["#DC052D", "#FFFFFF"]
     }
+    
   ],
   "players": [
     {
@@ -86,7 +103,7 @@
       "goals": 21,
       "assists": 11,
       "matches": 38,
-      "photo": "https://img.a.transfermarkt.technology/portrait/big/371998-1669664875.jpg?lm=1",
+      "photo": "https://assets.laliga.com/squad/2024/t186/p246333/2048x2225/p246333_t186_2024_1_001_000.png",
       "skills": {
         "pace": 95,
         "shooting": 82,
@@ -110,7 +127,7 @@
       "goals": 32,
       "assists": 6,
       "matches": 40,
-      "photo": "https://img.a.transfermarkt.technology/portrait/big/38253-1635255627.jpg?lm=1",
+      "photo": "https://www.fcbarcelona.com/photo-resources/2024/10/13/b666059e-1d0a-493f-a7e5-dd7a258d8165/09-Lewandowski-M.jpg?width=1200&height=750",
       "skills": {
         "pace": 72,
         "shooting": 96,
@@ -134,7 +151,7 @@
       "goals": 4,
       "assists": 7,
       "matches": 28,
-      "photo": "https://img.a.transfermarkt.technology/portrait/big/591568-1635255555.jpg?lm=1",
+      "photo": "data:image/jpeg;base64,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",
       "skills": {
         "pace": 68,
         "shooting": 72,
@@ -158,7 +175,7 @@
       "goals": 38,
       "assists": 5,
       "matches": 41,
-      "photo": "https://img.a.transfermarkt.technology/portrait/big/418560-1635255714.jpg?lm=1",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSowkW03Yo9grB5VKQSxYLuiwz0bdAmnB9TWA&s",
       "skills": {
         "pace": 89,
         "shooting": 95,
@@ -182,7 +199,7 @@
       "goals": 6,
       "assists": 18,
       "matches": 35,
-      "photo": "https://img.a.transfermarkt.technology/portrait/big/88755-1635255714.jpg?lm=1",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZhCXbPRysrO5ZXj1-pmyr8dCRJHpk4WpJ1g&s",
       "skills": {
         "pace": 74,
         "shooting": 86,
@@ -206,7 +223,7 @@
       "goals": 18,
       "assists": 12,
       "matches": 29,
-      "photo": "https://img.a.transfermarkt.technology/portrait/big/68290-1635255555.jpg?lm=1",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZPsHeD-HpVJt7iriaFIxvm-Ur_89sd8AzJQ&s",
       "skills": {
         "pace": 84,
         "shooting": 85,
@@ -230,7 +247,7 @@
       "goals": 16,
       "assists": 14,
       "matches": 32,
-      "photo": "https://img.a.transfermarkt.technology/portrait/big/28003-1635255555.jpg?lm=1",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUfpIwr7cOxPeIAFQuKG7vg5tWf7Ahoct7NQ&s",
       "skills": {
         "pace": 78,
         "shooting": 92,
@@ -254,7 +271,7 @@
       "goals": 36,
       "assists": 8,
       "matches": 42,
-      "photo": "https://img.a.transfermarkt.technology/portrait/big/132098-1635255714.jpg?lm=1",
+      "photo": "https://assets.bundesliga.com/player/dfl-obj-j00zz3-dfl-clu-00000g-dfl-sea-0001k8.png",
       "skills": {
         "pace": 78,
         "shooting": 94,
@@ -278,7 +295,7 @@
       "goals": 12,
       "assists": 8,
       "matches": 38,
-      "photo": "https://img.a.transfermarkt.technology/portrait/big/580195-1635255714.jpg?lm=1",
+      "photo": "https://assets.bundesliga.com/player/dfl-obj-002gcr-dfl-clu-00000g-dfl-sea-0001k8.png",
       "skills": {
         "pace": 82,
         "shooting": 79,
@@ -302,7 +319,7 @@
       "goals": 25,
       "assists": 14,
       "matches": 40,
-      "photo": "https://img.a.transfermarkt.technology/portrait/big/148455-1635255714.jpg?lm=1",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkTfBolLBVQCsNfYYFw6HESS6EPQ0Dv91Syw&s",
       "skills": {
         "pace": 88,
         "shooting": 89,
@@ -326,7 +343,151 @@
       "goals": 3,
       "assists": 2,
       "matches": 37,
-      "photo": "https://img.a.transfermarkt.technology/portrait/big/139208-1635255714.jpg?lm=1",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlM1zM71SSMZ00ygyU29NX7TS_D_M5Id4e5g&s",
+      "skills": {
+        "pace": 78,
+        "shooting": 62,
+        "passing": 89,
+        "dribbling": 72,
+        "defending": 96,
+        "physical": 94
+      },
+      "trophies": ["Liga de Campeones", "Premier League"],
+      "description": "Defensa central holandés líder en defensa con gran juego aéreo y pase largo."
+    },
+    {
+      "id": 13,
+      "name": "jean Deza",
+      "age": 32,
+      "position": "Extremo izquierdo",
+      "nationality": "Perú",
+      "teamId": 7,
+      "marketValue": 35000000,
+      "contractUntil": "2025",
+      "goals": 3,
+      "assists": 2,
+      "matches": 37,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/198027-1593885250.png?lm=1",
+      "skills": {
+        "pace": 78,
+        "shooting": 62,
+        "passing": 89,
+        "dribbling": 72,
+        "defending": 96,
+        "physical": 94
+      },
+      "trophies": ["Liga 1", "Copa 1"],
+      "description": "Defensa central holandés líder en defensa con gran juego aéreo y pase largo."
+    },
+    {
+      "id": 14,
+      "name": "Virgil van Dijk",
+      "age": 33,
+      "position": "Defensa Central",
+      "nationality": "Países Bajos",
+      "teamId": 6,
+      "marketValue": 35000000,
+      "contractUntil": "2025",
+      "goals": 3,
+      "assists": 2,
+      "matches": 37,
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlM1zM71SSMZ00ygyU29NX7TS_D_M5Id4e5g&s",
+      "skills": {
+        "pace": 78,
+        "shooting": 62,
+        "passing": 89,
+        "dribbling": 72,
+        "defending": 96,
+        "physical": 94
+      },
+      "trophies": ["Liga de Campeones", "Premier League"],
+      "description": "Defensa central holandés líder en defensa con gran juego aéreo y pase largo."
+    },
+    {
+      "id": 15,
+      "name": "Virgil van Dijk",
+      "age": 33,
+      "position": "Defensa Central",
+      "nationality": "Países Bajos",
+      "teamId": 6,
+      "marketValue": 35000000,
+      "contractUntil": "2025",
+      "goals": 3,
+      "assists": 2,
+      "matches": 37,
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlM1zM71SSMZ00ygyU29NX7TS_D_M5Id4e5g&s",
+      "skills": {
+        "pace": 78,
+        "shooting": 62,
+        "passing": 89,
+        "dribbling": 72,
+        "defending": 96,
+        "physical": 94
+      },
+      "trophies": ["Liga de Campeones", "Premier League"],
+      "description": "Defensa central holandés líder en defensa con gran juego aéreo y pase largo."
+    },
+    {
+      "id": 16,
+      "name": "Edinson Flores",
+      "age": 33,
+      "position": "Extremo izquierdo",
+      "nationality": "Perú",
+      "teamId": 8,
+      "marketValue": 35000000,
+      "contractUntil": "2025",
+      "goals": 3,
+      "assists": 2,
+      "matches": 37,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/194998-1738285490.png?lm=1",
+      "skills": {
+        "pace": 78,
+        "shooting": 62,
+        "passing": 89,
+        "dribbling": 72,
+        "defending": 96,
+        "physical": 94
+      },
+      "trophies": ["Liga de Campeones", "Premier League"],
+      "description": "Defensa central holandés líder en defensa con gran juego aéreo y pase largo."
+    },
+    {
+      "id": 17,
+      "name": "Virgil van Dijk",
+      "age": 33,
+      "position": "Defensa Central",
+      "nationality": "Países Bajos",
+      "teamId": 6,
+      "marketValue": 35000000,
+      "contractUntil": "2025",
+      "goals": 3,
+      "assists": 2,
+      "matches": 37,
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlM1zM71SSMZ00ygyU29NX7TS_D_M5Id4e5g&s",
+      "skills": {
+        "pace": 78,
+        "shooting": 62,
+        "passing": 89,
+        "dribbling": 72,
+        "defending": 96,
+        "physical": 94
+      },
+      "trophies": ["Liga de Campeones", "Premier League"],
+      "description": "Defensa central holandés líder en defensa con gran juego aéreo y pase largo."
+    },
+    {
+      "id": 18,
+      "name": "Virgil van Dijk",
+      "age": 33,
+      "position": "Defensa Central",
+      "nationality": "Países Bajos",
+      "teamId": 6,
+      "marketValue": 35000000,
+      "contractUntil": "2025",
+      "goals": 3,
+      "assists": 2,
+      "matches": 37,
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlM1zM71SSMZ00ygyU29NX7TS_D_M5Id4e5g&s",
       "skills": {
         "pace": 78,
         "shooting": 62,
