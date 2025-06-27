@@ -362,7 +362,7 @@
       "position": "Extremo izquierdo",
       "nationality": "Perú",
       "teamId": 7,
-      "marketValue": 35000000,
+      "marketValue": 65000,
       "contractUntil": "2025",
       "goals": 3,
       "assists": 2,
@@ -376,22 +376,22 @@
         "defending": 96,
         "physical": 94
       },
-      "trophies": ["Liga 1", "Copa 1"],
-      "description": "Defensa central holandés líder en defensa con gran juego aéreo y pase largo."
+      "trophies": ["Supercopa Peruana", "Copa Perú"],
+      "description": "Extremo izquierdo con gran habilidad y pegada al arco."
     },
     {
       "id": 14,
-      "name": "Virgil van Dijk",
+      "name": "Cristian Cueva",
       "age": 33,
-      "position": "Defensa Central",
-      "nationality": "Países Bajos",
-      "teamId": 6,
-      "marketValue": 35000000,
+      "position": "Centrocampista",
+      "nationality": "Perú",
+      "teamId": 7,
+      "marketValue": 150000,
       "contractUntil": "2025",
       "goals": 3,
       "assists": 2,
       "matches": 37,
-      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlM1zM71SSMZ00ygyU29NX7TS_D_M5Id4e5g&s",
+      "photo": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2023/03/07/000939008W.jpg",
       "skills": {
         "pace": 78,
         "shooting": 62,
@@ -400,22 +400,22 @@
         "defending": 96,
         "physical": 94
       },
-      "trophies": ["Liga de Campeones", "Premier League"],
-      "description": "Defensa central holandés líder en defensa con gran juego aéreo y pase largo."
+      "trophies": ["Copa imaginaria", "Premier Chela"],
+      "description": "Centrocampista con una visión de juego muy amplia, con un tipo de juego muy creativo."
     },
     {
       "id": 15,
-      "name": "Virgil van Dijk",
+      "name": "Yordi Reyna",
       "age": 33,
-      "position": "Defensa Central",
-      "nationality": "Países Bajos",
-      "teamId": 6,
-      "marketValue": 35000000,
+      "position": "Delantero",
+      "nationality": "Perú",
+      "teamId": 7,
+      "marketValue": 80000,
       "contractUntil": "2025",
       "goals": 3,
       "assists": 2,
       "matches": 37,
-      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlM1zM71SSMZ00ygyU29NX7TS_D_M5Id4e5g&s",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxLyNQk6ZmhQ7yUU85njqOtB9U4f_QSqiFMw&s",
       "skills": {
         "pace": 78,
         "shooting": 62,
@@ -424,8 +424,8 @@
         "defending": 96,
         "physical": 94
       },
-      "trophies": ["Liga de Campeones", "Premier League"],
-      "description": "Defensa central holandés líder en defensa con gran juego aéreo y pase largo."
+      "trophies": ["Liga de Campeones", "Liga 1"],
+      "description": "Delantero Peruano con una gran destreza en el campo de juego."
     },
     {
       "id": 16,
@@ -434,70 +434,70 @@
       "position": "Extremo izquierdo",
       "nationality": "Perú",
       "teamId": 8,
-      "marketValue": 35000000,
+      "marketValue": 95000,
       "contractUntil": "2025",
       "goals": 3,
       "assists": 2,
       "matches": 37,
       "photo": "https://img.a.transfermarkt.technology/portrait/big/194998-1738285490.png?lm=1",
       "skills": {
-        "pace": 78,
-        "shooting": 62,
-        "passing": 89,
-        "dribbling": 72,
-        "defending": 96,
-        "physical": 94
+        "pace": 68,
+        "shooting": 52,
+        "passing": 49,
+        "dribbling": 32,
+        "defending": 26,
+        "physical": 34
       },
       "trophies": ["Liga de Campeones", "Premier League"],
       "description": "Defensa central holandés líder en defensa con gran juego aéreo y pase largo."
     },
     {
       "id": 17,
-      "name": "Virgil van Dijk",
-      "age": 33,
+      "name": "Aldo Corzo",
+      "age": 36,
       "position": "Defensa Central",
-      "nationality": "Países Bajos",
-      "teamId": 6,
-      "marketValue": 35000000,
+      "nationality": "Perú",
+      "teamId": 8,
+      "marketValue": 70000,
       "contractUntil": "2025",
       "goals": 3,
       "assists": 2,
       "matches": 37,
-      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlM1zM71SSMZ00ygyU29NX7TS_D_M5Id4e5g&s",
+      "photo": "https://universitario.pe/media/__sized__/images/squad/player/29._Aldo_Corzo-thumbnail-470x470.png",
       "skills": {
-        "pace": 78,
-        "shooting": 62,
-        "passing": 89,
-        "dribbling": 72,
-        "defending": 96,
-        "physical": 94
+        "pace": 56,
+        "shooting": 42,
+        "passing": 67,
+        "dribbling": 21,
+        "defending": 57,
+        "physical": 45
       },
-      "trophies": ["Liga de Campeones", "Premier League"],
-      "description": "Defensa central holandés líder en defensa con gran juego aéreo y pase largo."
+      "trophies": ["Supercopa Peruana", "Copa Bicentenario"],
+      "description": "Defensa central Peruano, líder en defensa con gran juego terrenal y pase largo."
     },
     {
       "id": 18,
-      "name": "Virgil van Dijk",
-      "age": 33,
-      "position": "Defensa Central",
-      "nationality": "Países Bajos",
-      "teamId": 6,
-      "marketValue": 35000000,
+      "name": "Alex Valera",
+      "age": 29,
+      "position": "Delantero",
+      "nationality": "Perú",
+      "teamId": 8,
+      "marketValue": 35000,
       "contractUntil": "2025",
-      "goals": 3,
-      "assists": 2,
-      "matches": 37,
-      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlM1zM71SSMZ00ygyU29NX7TS_D_M5Id4e5g&s",
+      "goals": 7,
+      "assists": 5,
+      "matches": 30,
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/738716-1738286173.png?lm=1",
       "skills": {
-        "pace": 78,
-        "shooting": 62,
-        "passing": 89,
-        "dribbling": 72,
-        "defending": 96,
-        "physical": 94
+        "pace": 24,
+        "shooting": 42,
+        "passing": 32,
+        "dribbling": 41,
+        "defending": 12,
+        "physical": 75
       },
-      "trophies": ["Liga de Campeones", "Premier League"],
-      "description": "Defensa central holandés líder en defensa con gran juego aéreo y pase largo."
+      "trophies": ["Supercopa Peruana", "Copa Perú"],
+      "description": "Delantero Peruano con una gran destreza en el campo de juego y gran vision del campo para moverse y desmarcarse."
     }
   ]
 }

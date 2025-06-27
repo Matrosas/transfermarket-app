@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import dataService from '../services/dataService';
 
 const PlayerCard = ({ player, onClick }) => {
@@ -6,6 +6,14 @@ const PlayerCard = ({ player, onClick }) => {
   const teamName = team?.name || 'Sin equipo';
   const teamLogo = team?.logo;
   const marketValue = dataService.formatMarketValue(player.marketValue);
+
+  const [isFavorite, setIsFavorite] = useState(false); // Estado local
+
+  const toggleFavorite = (e) => {
+    e.stopPropagation(); // Evita que se dispare el onClick general de la tarjeta
+    setIsFavorite(!isFavorite);
+    // Aquí podrías también llamar a una función para guardar el favorito en una base de datos o localStorage
+  };
 
   const getPositionColor = (position) => {
     switch (position.toLowerCase()) {
@@ -30,9 +38,18 @@ const PlayerCard = ({ player, onClick }) => {
 
   return (
     <div
-      className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer transform hover:scale-105 border border-gray-100"
+      className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer transform hover:scale-105 border border-gray-100 relative"
       onClick={() => onClick(player)}
     >
+      {/* Botón de favorito */}
+      <button
+        onClick={toggleFavorite}
+        className="absolute top-2 right-2 text-2xl focus:outline-none"
+        title={isFavorite ? 'Quitar de favoritos' : 'Agregar a favoritos'}
+      >
+        {isFavorite ? '⭐' : '☆'}
+      </button>
+
       <div className="p-6">
         <div className="flex items-center space-x-4">
           <div className="flex-shrink-0">

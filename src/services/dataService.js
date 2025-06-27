@@ -110,4 +110,23 @@ class DataService {
   }
 }
 
+let mockPlayers = []; 
+
+export const getAllPlayers = async () => {
+  return { data: mockPlayers };
+};
+
+export const addPlayer = async (newPlayer) => {
+  mockPlayers.push(newPlayer);
+  return { data: newPlayer };
+};
+
+export const getEquipos = async () => {
+  return [
+    { id: '1', nombre: 'Real Madrid' },
+    { id: '2', nombre: 'Barcelona' },
+    { id: '3', nombre: 'Manchester City' }
+  ];
+};
+
 export default new DataService();

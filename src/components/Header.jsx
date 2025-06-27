@@ -1,8 +1,22 @@
-import React from 'react';
-import { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
-const Header = ({ onSearch, onShowAllPlayers }) => {
+
+const Header = ({ onSearch, onShowAllPlayers, onFilterByTeam, onShowFavorites, onToggleForm }) => {
   const [searchTerm, setSearchTerm] = useState('');
+  const [equipos, setEquipos] = useState([]);
+  const [equipoSeleccionado, setEquipoSeleccionado] = useState('');
+
+  useEffect(() => {
+    const fetchEquipos = async () => {
+      try {
+        const data = await getEquipos();
+        setEquipos(data);
+      } catch (error) {
+        console.error('Error al cargar equipos:', error);
+      }
+    };
+    fetchEquipos();
+  }, []);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -13,7 +27,20 @@ const Header = ({ onSearch, onShowAllPlayers }) => {
 
   const handleShowAll = () => {
     setSearchTerm('');
+    setEquipoSeleccionado('');
     onShowAllPlayers();
+  };
+
+  const handleSelectChange = (e) => {
+    const selected = e.target.value;
+    setEquipoSeleccionado(selected);
+    onFilterByTeam(selected);
+  };
+
+  const handleShowFavorites = () => {
+    setSearchTerm('');
+    setEquipoSeleccionado('');
+    onShowFavorites();
   };
 
   return (
@@ -22,7 +49,7 @@ const Header = ({ onSearch, onShowAllPlayers }) => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <h1 
+              <h1
                 className="text-white text-2xl font-bold font-football cursor-pointer hover:text-goal-yellow transition-colors"
                 onClick={handleShowAll}
               >
@@ -30,7 +57,7 @@ const Header = ({ onSearch, onShowAllPlayers }) => {
               </h1>
             </div>
           </div>
-          
+
           <div className="flex items-center space-x-4">
             <form onSubmit={handleSubmit} className="flex items-center">
               <div className="relative">
@@ -49,13 +76,41 @@ const Header = ({ onSearch, onShowAllPlayers }) => {
                 </button>
               </div>
             </form>
-            
+
+            <select
+              value={equipoSeleccionado}
+              onChange={handleSelectChange}
+              className="bg-white/10 text-white px-3 py-2 rounded-lg border border-white/20 focus:outline-none focus:ring-2 focus:ring-goal-yellow focus:border-transparent"
+            >
+              <option value="">Filtrar por equipo</option>
+              {equipos.map((equipo) => (
+                <option key={equipo.id} value={equipo.nombre}>
+                  {equipo.nombre}
+                </option>
+              ))}
+            </select>
+
+            <button
+              onClick={handleShowFavorites}
+              className="bg-white/10 text-goal-yellow px-4 py-2 rounded-lg font-medium hover:bg-white/20 border border-white/20 transition-colors"
+            >
+              ⭐ Favoritos
+            </button>
+
             <button
               onClick={handleShowAll}
               className="bg-goal-yellow text-referee-black px-4 py-2 rounded-lg font-medium hover:bg-yellow-400 transition-colors"
             >
               Ver Todos
             </button>
+
+            <button
+              onClick={onToggleForm}
+              className="bg-white/10 text-white px-4 py-2 rounded-lg hover:bg-white/20 transition-colors border border-white/20"
+            >
+              ➕ Agregar Jugador
+            </button>
+
           </div>
         </div>
       </div>
